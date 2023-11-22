@@ -16,8 +16,7 @@ public class Day45 {
             int nilai = scanner.nextInt();
             totalNilai += nilai;
         }
-        double rataRata = (double) totalNilai / jumlahNilai;
-
+        double rataRata = totalNilai / jumlahNilai;
         System.out.println("Total nilai: " + totalNilai);
         System.out.println("Rata-rata nilai: " + rataRata);
 
